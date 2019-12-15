@@ -15,3 +15,10 @@ function skiJump(mountain) {
             break
     }
 }
+function descendingOrder(n) {
+    n = n.toString()
+    n = n.split("")
+    n = n.sort().reverse()
+    n = n.join("")
+    return parseInt(n, 10)
+}
